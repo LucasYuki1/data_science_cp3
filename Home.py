@@ -99,9 +99,7 @@ def home_page():
 home_page()
 
 # Conteúdo dinâmico conforme o menu
-if menu_choice == "Home":
-    home_page()
-elif menu_choice == "Certificados":
+if menu_choice == "Certificados":
     st.switch_page("pages/2_Formacao_e_experiencia.py")
 elif menu_choice == "Minhas Skills":
     st.switch_page("pages/3_Skills.py")
