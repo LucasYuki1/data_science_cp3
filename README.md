@@ -39,8 +39,8 @@ Uma aplicação web completa desenvolvida com Streamlit que apresenta um perfil 
 
 ### 1. Clone o repositório
 ```bash
-git clone <url-do-repositorio>
-cd dashboard-profissional
+git clone (https://github.com/LucasYuki1/data_science_cp3)
+cd data_science_cp3
 ```
 
 ### 2. Instale as dependências
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ### 3. Execute a aplicação
 ```bash
-streamlit run app.py
+streamlit run Home.py
 ```
 
 ### 4. Acesse no navegador
