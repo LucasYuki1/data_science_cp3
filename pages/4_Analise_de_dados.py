@@ -24,7 +24,7 @@ menu_choice = sidebar_menu()
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"C:\Users\Predator\Downloads\dashboard\project_full\data\airlines_flights_data.csv")
+    df = pd.read_csv(r"data/airlines_flights_data.csv")
     return df
 
 def data_analysis_page(df):

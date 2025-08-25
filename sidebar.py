@@ -7,7 +7,7 @@ def sidebar_menu():
         st.session_state.menu_choice = "Home"
 
     with st.sidebar:
-        st.image("assets/logo.png", use_container_width=True)
+        st.image(r"assets/logo.png", use_container_width=True)
 
         selected = option_menu(
             menu_title=None,

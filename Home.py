@@ -48,7 +48,7 @@ def home_page():
         """)
     
     with col2:
-        img = Image.open(r"C:\Users\Predator\Downloads\dashboard\project_full\assets\perfil.jpg")
+        img = Image.open(r"assets/perfil.jpg")
         img = ImageOps.exif_transpose(img)
         st.image(img, use_container_width=True)
     

@@ -29,7 +29,7 @@ menu_choice = sidebar_menu()
 # Função para carregar os dados 
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"C:\Users\Predator\Downloads\dashboard\project_full\data\airlines_flights_data.csv")
+    df = pd.read_csv(r"data/airlines_flights_data.csv")
     return df
 
 df = load_data()
